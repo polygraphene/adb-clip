@@ -1,6 +1,6 @@
 # adb-clip
 
-Clipboard access via adb shell. Supports Android 15-16.
+Clipboard access via adb shell. Supports Android 10-16.
 
 # Usage
 Download `clip.jar` and `clip` file from [releases](https://github.com/polygraphene/adb-clip/releases)
