@@ -10,7 +10,7 @@ adb shell chmod 755 /data/local/tmp/clip
 # Get clipboard
 adb shell /data/local/tmp/clip
 # Set clipboard
-adb shell /data/local/tmp/clip "Content here"
+adb shell "/data/local/tmp/clip 'Content here'"
 ```
 
 # Features

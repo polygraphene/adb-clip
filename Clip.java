@@ -80,7 +80,7 @@ public class Clip {
                     System.out.println("" + data.getItemAt(0).getText().toString());
                 }
             } else {
-                 ClipData data = ClipData.newPlainText("" /* Label */, args[0]);
+                 ClipData data = ClipData.newPlainText("" /* Label */, String.join(" ", args));
                  cm.setPrimaryClip(data);
             }
 
