@@ -61,7 +61,7 @@ public class Clip {
                 LoadedApk pi = actThread.getPackageInfo("com.android.shell", systemContext.getResources().getCompatibilityInfo(),
                         Context.CONTEXT_REGISTER_PACKAGE, 0);
 
-                appContext = pi.makeApplicationInner(false, null);
+                appContext = pi.makeApplication(false, null);
                 // appContext.getOpPackageName() is now "com.android.shell"
             } else {
                 // uid 1000 can use system context. Other uid is not supported (fail).
