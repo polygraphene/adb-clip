@@ -2,7 +2,7 @@
 
 # cp (aosp source)/out/soong/.intermediates/frameworks/base/framework/android_common/repackaged-jarjar/turbine/framework.jar .
 
-mkdir -p out
+mkdir out
 javac -source 1.8 -target 1.8 -cp framework.jar Clip.java -d out
 ~/android-sdk/build-tools/36.0.0/d8 out/Clip.class --output out/clip.jar
 
